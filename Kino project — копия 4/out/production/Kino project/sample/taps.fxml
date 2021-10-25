@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="621.0" prefWidth="945.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Zacladki">
+   <children>
+      <MenuBar prefHeight="43.0" prefWidth="945.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Профиль">
+            <items>
+              <MenuItem fx:id="Profile" mnemonicParsing="false" onAction="#click" text="Профиль" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Фильмы">
+            <items>
+              <MenuItem fx:id="films" mnemonicParsing="false" onAction="#click" text="Фильмы" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Тех. Поддержка">
+            <items>
+              <MenuItem fx:id="SOS" mnemonicParsing="false" onAction="#click" text="Тех. Поддержка" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button layoutX="22.0" layoutY="246.0" mnemonicParsing="false" text="Посмотреть Информацию" />
+      <Button layoutX="358.0" layoutY="246.0" mnemonicParsing="false" text="Посмотреть Информацию" />
+      <Button layoutX="22.0" layoutY="512.0" mnemonicParsing="false" text="Посмотреть Информацию" />
+      <Button layoutX="641.0" layoutY="246.0" mnemonicParsing="false" text="Посмотреть Информацию" />
+      <Button layoutX="358.0" layoutY="512.0" mnemonicParsing="false" text="Посмотреть Информацию" />
+      <ImageView fx:id="picture1" fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/1121f8749a6d73fa15e1addb9bb5eda6.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="picture2" fitHeight="150.0" fitWidth="200.0" layoutX="360.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/1932817-603654.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="picture3" fitHeight="150.0" fitWidth="200.0" layoutX="643.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/big_startfilmru1288139.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="picture5" fitHeight="150.0" fitWidth="200.0" layoutX="402.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/27.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="picture4" fitHeight="150.0" fitWidth="200.0" layoutX="24.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/kinopoisk.ru-Yolki-1432534-w-800.jpg" />
+         </image></ImageView>
+      <Button layoutX="641.0" layoutY="512.0" mnemonicParsing="false" text="Посмотреть Информацию" />
+      <ImageView fx:id="picture6" fitHeight="150.0" fitWidth="200.0" layoutX="633.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

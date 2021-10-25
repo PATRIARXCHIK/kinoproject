@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerInfo">
+   <children>
+      <TabPane prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="КРК &quot;Звезда&quot;">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="405.0" prefWidth="600.0">
+                     <children>
+                        <ImageView fitHeight="197.0" fitWidth="130.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/Постер_Оно_2.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="159.0" layoutY="22.0" prefHeight="21.0" prefWidth="245.0" text="Гладиатор" />
+                        <Button fx:id="back5" layoutX="505.0" layoutY="10.0" mnemonicParsing="false" onAction="#click" text="Назад" />
+                        <Label layoutX="159.0" layoutY="52.0" text="Дата реиза " />
+                        <Label layoutX="159.0" layoutY="80.0" text="амавмавм" />
+                        <Label layoutX="159.0" layoutY="106.0" text="амцуц" />
+                        <TextArea layoutX="13.0" layoutY="237.0" prefHeight="98.0" prefWidth="574.0" />
+                        <Button layoutX="41.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="584.0" text="Сматрет ОТзывЪи" />
+                        <Button layoutX="150.0" layoutY="149.0" mnemonicParsing="false" text="9:15" />
+                        <Button layoutX="225.0" layoutY="149.0" mnemonicParsing="false" text="10:50" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Cinema Star">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+            <Tab text="Панорама">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="SILVER CINEMA">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

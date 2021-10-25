@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerError">
+   <children>
+      <ImageView fitHeight="165.0" fitWidth="179.0" layoutX="211.0" layoutY="55.0">
+         <image>
+            <Image url="@../assets/error-icon-25266.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="211.0" layoutY="233.0" prefHeight="37.0" prefWidth="179.0" text="ОШИБКА  1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="nazad" layoutX="143.0" layoutY="334.0" mnemonicParsing="false" onAction="#click111" prefHeight="37.0" prefWidth="315.0" text="Назад" />
+      <Label layoutX="176.0" layoutY="270.0" text="Введенные вами пароли не совпадают" />
+   </children>
+</AnchorPane>
