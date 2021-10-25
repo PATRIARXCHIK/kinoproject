@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller2">
+   <children>
+      <ImageView fitHeight="533.0" fitWidth="682.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/luxfon.com_6173.jpg" />
+         </image>
+      </ImageView>
+      <MenuBar layoutY="-2.0" prefHeight="32.0" prefWidth="682.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Профиль">
+               <items>
+                  <MenuItem fx:id="Profile" mnemonicParsing="false" onAction="#click" text="Профиль" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Фильмы">
+               <items>
+                  <MenuItem fx:id="film" mnemonicParsing="false" onAction="#click" text="Фильмы" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Закладки">
+               <items>
+                  <MenuItem fx:id="tap" mnemonicParsing="false" onAction="#click" text="Закладки" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Тех. Поддержка">
+               <items>
+                  <MenuItem fx:id="SOS" mnemonicParsing="false" onAction="#click" text="Тех. Поддержка" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
